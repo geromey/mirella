@@ -1,0 +1,31 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_button_event" id="QfKWSb]7T1!^(F2Iay|k" x="0" y="0"><field name="NAME">Button.AB</field><statement name="HANDLER"><block type="basic_show_icon" id="WPonnb^``BCjaLY-h*o;"><field name="i">IconNames.Skull</field><next><block type="controls_repeat_ext" id="2!RUv9o`RXSXExBzFte="><value name="TIMES"><shadow type="math_whole_number" id="QynPP77QVL2.13=VZJUU"><field name="NUM">5</field></shadow></value><statement name="DO"><block type="device_show_leds" id="rDJL4@!]G~oyk!Jazq+Q"><field name="LEDS">`
+        . # # # . 
+        . # . . . 
+        . # # # . 
+        . # . . . 
+        . # . . .
+        `</field><next><block type="device_show_leds" id="R9*jZ_~2!kJ1qI4pC3}c"><field name="LEDS">`
+        # # # # # 
+        . . . # . 
+        . . # . . 
+        . # . . . 
+        # # # # #
+        `</field><next><block type="device_show_leds" id="9S@pBZVn=U$;ypNF*of."><field name="LEDS">`
+        # . . . # 
+        # # . # # 
+        # . # . # 
+        # . . . # 
+        # . . . #
+        `</field></block></next></block></next></block></statement></block></next></block></statement></block><block type="device_button_event" id="h.IeQkMfd8k=v.p(`uPa" x="338" y="83"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="device_print_message" id="]{6vgRrUVoqPWvsQp)pP"><value name="text"><shadow type="text" id="%`Z`L]PonnMB$v3NRK*9"><field name="TEXT">ZOLTAN</field></shadow></value><next><block type="device_print_message" id="?KoTv!K0Lj?Vk_}iXeW6"><value name="text"><shadow type="text" id="7fb6H+fJ;MUh(M#x0.rg"><field name="TEXT">MIRELLA</field></shadow></value><next><block type="device_print_message" id="r8/GTQg9[;e.l/!4x]Fa"><value name="text"><shadow type="text" id="OUEPs{XENwoz0E;aEsV7"><field name="TEXT">FLAVIEN</field></shadow></value></block></next></block></next></block></statement></block><block type="device_button_event" id=";3#/zw#z|w;^40#V{YG%" x="738" y="251"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_show_leds" id="Q31Jwu@8~3b=e0k--0Ky"><field name="LEDS">`
+        . . . . # 
+        . # . . . 
+        . # # # # 
+        # # # # . 
+        # . # . #
+        `</field></block></statement></block><block type="device_show_leds" id="kLH]Qsw[l}:c$Pm{=eut" disabled="true" x="534" y="306"><field name="LEDS">`
+        # # . # # 
+        # # . # # 
+        . . . . . 
+        # # . # # 
+        # # . # #
+        `</field></block></xml>
