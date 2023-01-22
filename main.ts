@@ -1,40 +1,22 @@
 input.onButtonPressed(Button.A, function () {
-    basic.showLeds(`
-        . . . . #
-        . # . . .
-        . # # # #
-        # # # # .
-        # . # . #
-        `)
-})
-input.onButtonPressed(Button.AB, function () {
-    basic.showIcon(IconNames.Skull)
-    for (let index = 0; index < 5; index++) {
-        basic.showLeds(`
-            . # # # .
-            . # . . .
-            . # # # .
-            . # . . .
-            . # . . .
-            `)
-        basic.showLeds(`
-            # # # # #
-            . . . # .
-            . . # . .
-            . # . . .
-            # # # # #
-            `)
-        basic.showLeds(`
-            # . . . #
-            # # . # #
-            # . # . #
-            # . . . #
-            # . . . #
-            `)
+    if (position > 0) {
+        position += -1
     }
 })
 input.onButtonPressed(Button.B, function () {
-    basic.showString("ZOLTAN")
-    basic.showString("MIRELLA")
-    basic.showString("FLAVIEN")
+    if (position < 4) {
+        position += 1
+    }
+})
+let position = 0
+let asteroids: number[] = []
+position = 2
+basic.forever(function () {
+    for (let index = 0; index <= 4; index++) {
+        if (index == position) {
+            led.plot(index, 4)
+        } else {
+            led.unplot(index, 4)
+        }
+    }
 })
